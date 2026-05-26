@@ -3,9 +3,23 @@
 <head>
     <meta charset="UTF-8">
     <link rel="stylesheet" href="style.css">
-    <title>Bosta</title>
+    <title>Projeto Python</title>
+    <script src="main.py" type="text/python"></script>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1>Projeto Py</h1>
+    <h1>Cadastre-se</h1>
+    <form action="main.py" method="post">
+        <div class="form-group">
+        <input type="text" name="email" placeholder="Email">
+        <input type="text" name="nome_usuario" placeholder="Nome de usuário">
+        <input type="password" name="senha" placeholder="Senha">
+        <button type="submit">Cadastrar</button>
+        </div>
+    </form>
+    <p>JA TEM CADASTRO?</p>
+    <div class="button-group">
+        <button type="submit">entrar</button>
+    </div>
 </body>
 </html>
