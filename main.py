@@ -131,18 +131,20 @@ def main():
     print(user3.exibir_perfil())
     
     # Criando posts
-    post1 = reddit.criar_post(user1, "Python é melhor que JavaScript?", "Na minha opinião Python é mais simples e poderoso!")
-    post2 = reddit.criar_post(user2, "Dica: Use herança em POO", "A herança permite reutilizar código de forma eficiente!")
-    post3 = reddit.criar_post(user3, "Interface bonita com CSS", "CSS Flexbox mudou minha vida como dev!")
+    post1 = reddit.criar_post(user1, "palmeras ou flamengo", "Palmeiras não tem mundial")
+    post2 = reddit.criar_post(user2, "cs e melhor que overwatch", "fallen top global")
+    post3 = reddit.criar_post(user3, "brasil vai ser hexa em 2026", "com toda certeza")
     
     # Adicionando comentários
-    coment1 = Comentario(user2, "Concordo! Python é ótimo para iniciantes.", post1)
-    coment2 = Comentario(user3, "Mas JavaScript é bom pra web!", post1)
-    coment3 = Comentario(user1, "Excelente dica! Muito útil.", post2)
+    coment1 = Comentario(user2, "Concordo!", post1)
+    coment2 = Comentario(user3, "inveja foda ", post1)
+    coment3 = Comentario(user1, "Concordo grande fallen", post2)
+    coment4 = Comentario(user1, "vamo ney", post3)
     
     post1.adicionar_comentario(coment1)
     post1.adicionar_comentario(coment2)
     post2.adicionar_comentario(coment3)
+    post3.adicionar_comentario(coment4)
     
     # Votando em conteúdos (Testando Polimorfismo)
     print("\n--- Votando em Posts e Comentários ---")
