@@ -120,9 +120,9 @@ def main():
     reddit = Reddit()
     
     # Criando usuários
-    user1 = reddit.criar_usuario("TechLover", "tech@reddit.com")
-    user2 = reddit.criar_usuario("CodeMaster", "code@reddit.com")
-    user3 = reddit.criar_usuario("DesignGeek", "design@reddit.com")
+    user1 = reddit.criar_usuario("Gutovx","gutovx@reddit.com")
+    user2 = reddit.criar_usuario("Sr master","sr_master@reddit.com")
+    user3 = reddit.criar_usuario("Midnight fire","midnight_fire@reddit.com")
     
     # Exibindo perfis
     print("\n--- Usuários do Sistema ---")
@@ -173,7 +173,4 @@ def main():
     print(f"\nComentario herda de Conteudo:")
     print(f"  - Método da superclasse: calcular_pontuacao() = {coment1.calcular_pontuacao()}")
     print(f"  - Atributo próprio: texto = '{coment1.texto}'")
-
-
-if __name__ == "__main__":
-    main()
+ 
