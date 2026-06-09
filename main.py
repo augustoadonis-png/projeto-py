@@ -118,7 +118,7 @@ class Reddit:
 
 def main():
     reddit = Reddit()
-    
+    ~
     # Criando usuários
     user1 = reddit.criar_usuario("Gutovx","gutovx@reddit.com")
     user2 = reddit.criar_usuario("Sr master","sr_master@reddit.com")
